@@ -3,7 +3,7 @@ var uppercase, lowercase
 function shout(string){
   uppercase = string.toUpperCase();
   string = uppercase;
-  return string;
+  return uppercase;
 }
 function whisper(string){
   lowercase = string.toLowerCase();
